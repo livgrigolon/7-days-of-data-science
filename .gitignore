@@ -1,0 +1,5 @@
+# Ignorar arquivos da virtualenv
+venv/
+
+# Ignorar checkpoints do Jupyter Notebook
+.ipynb_checkpoints/
