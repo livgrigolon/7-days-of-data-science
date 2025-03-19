@@ -4,6 +4,6 @@ venv/
 # Ignorar checkpoints do Jupyter Notebook
 .ipynb_checkpoints/
 
-#Ignorar os arquivos dentro de processed_data/
-data/processed_data/*
-!data/processed_data/.gitkeep
+#Ignorar os arquivos dentro de data/processed/
+data/processed/*
+!data/processed/.gitkeep
