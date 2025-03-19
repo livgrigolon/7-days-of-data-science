@@ -1,52 +1,44 @@
 # 7 Days of Data Science 🎲
 
-Este repositório faz parte do desafio [**7 Days of Data Science**](https://7daysofcode.io/matricula/data-science), promovido pela [Alura](https://www.alura.com.br/). O desafio tem como objetivo proporcionar uma experiência prática com todo o ciclo de análise de dados, desde a coleta até a modelagem e disponibilização dos dados.
+### Sobre o projeto
 
-## 👩‍💻 O que você vai aprender?
-Durante esses 7 dias, você passará pelas principais etapas da Ciência de Dados:
-- **Coleta de Dados**: Importação e manipulação de bases públicas.
-- **Limpeza e Tratamento**: Correção de inconsistências e padronização dos dados.
-- **Análise Exploratória**: Identificação de padrões e insights.
-- **Modelagem Preditiva**: Criação de modelos para previsão de dados.
-- **Sistema de Recomendacão**: Desenvolvimento de sugestões personalizadas.
-- **Deploy via API**: Publicação de modelos para uso externo.
-- **Testes Estatísticos**: Testes A/B e validação de hipóteses.
-- **Documentação e Portfólio**: Organização dos resultados e apresentação do projeto.
+Este repositório faz parte do desafio [**7 Days of Data Science**](https://7daysofcode.io/matricula/data-science), promovido pela [Alura](https://www.alura.com.br/). O objetivo do desafio é passar por todas as etapas do ciclo de análise de dados, desde a coleta até a modelagem e visualização, aplicando técnicas comuns na área de dados.
 
-## 📅 Progresso do Desafio
+Durante **7 dias**, desenvolvi três projetos distintos, cada um focado em um aspecto essencial da Ciência de Dados, utilizando dados reais e ferramentas amplamente utilizadas no mercado.
 
-### **Dia 1 - Limpeza e Preparação dos Dados**
-Identificamos e tratamos inconsistências nos dados da base **CEAPS (Cota para Exercício da Atividade Parlamentar)**, garantindo que estejam prontos para análise.
+---
 
-### **Dia 2 - Análise Exploratória**
-Com os dados limpos, iniciamos uma análise exploratória para compreender padrões e relações entre variáveis.
+### Progresso do desafio
 
-### **Dia 3 - Modelagem Preditiva**
-Criamos um modelo preditivo para estimar valores futuros com base nos dados históricos.
+#### **Projeto 1: Análise de gastos parlamentares (CEAPS)**
+- **Dia 1:** Limpeza e tratamento dos dados da base **CEAPS** (Cota para Exercício da Atividade Parlamentar dos Senadores).
+- **Dia 2:** Exploração e visualização de dados para identificar padrões e insights.
+- **Dia 3:** Modelagem preditiva para prever possíveis padrões de gastos futuros.
 
-### **Dia 4 - Sistema de Recomendacão**
-Desenvolvemos um modelo de recomendação para sugerir produtos ou serviços baseados em comportamento.
+#### **Projeto 2: Sistema de recomendação de filmes (MovieLens)**
+- **Dia 4:** Construção de um sistema de recomendação baseado no dataset **MovieLens**.
+- **Dia 5:** Criação de uma API para disponibilizar as recomendações.
 
-### **Dia 5 - Deploy via API**
-Publicamos nosso modelo por meio de uma API, permitindo que outros sistemas acessem os insights gerados.
+#### **Projeto 3: Teste A/B e validação estatística**
+- **Dia 6:** Análise de um experimento de **Teste A/B**, aplicando testes estatísticos para validação de hipóteses.
+- **Dia 7:** Documentação, reflexão sobre os aprendizados e ajustes finais.
 
-### **Dia 6 - Testes A/B e Hipóteses**
-Aplicamos testes estatísticos para validar decisões baseadas em dados.
+---
 
-### **Dia 7 - Documentação e Portfólio**
-Finalizamos o projeto, organizamos os arquivos e preparamos a documentação para o portfólio.
+### Tecnologias utilizadas
+Para o desenvolvimento deste projeto, utilizei as seguintes tecnologias e bibliotecas:
+- **Análise e manipulação de dados:** Pandas, Numpy, SciPy e Statsmodels
+- **Visualização de dados:** Matplotlib, Seaborn e Plotly
+- **Machine Learning e modelagem preditiva:** Scikit-learn, Pmdarima e Prophet
+- **API:** FastAPI e Uvicorn
 
-## 🛠 Tecnologias Utilizadas
-- **Python**: Pandas, NumPy, Scikit-Learn, Plotly
-- **SQL**
-- **Jupyter Notebook**
-- **API Flask/FastAPI** (para deploy)
-- **Git & GitHub** (controle de versão e portfólio)
+---
 
-## 🏃‍♀️‍➡️ Como Executar o Projeto
+### Como executar o projeto
+
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/livgrigolon/7-days-of-data-science.git
+   git clone https://github.com/seu-usuario/7daysOfDataScience.git
    ```
 2. Crie um ambiente virtual e instale as dependências:
    ```bash
@@ -54,7 +46,18 @@ Finalizamos o projeto, organizamos os arquivos e preparamos a documentação par
    source venv/bin/activate  # (ou venv\Scripts\activate no Windows)
    pip install -r requirements.txt
    ```
-3. Execute os notebooks no Jupyter ou VS Code.
+3. Execute os notebooks no **Jupyter Notebook** ou no **VS Code**.
 
-## 🌟 Autor
+---
+
+### Reflexões e aprendizados
+
+Ao longo do desafio, enfrentei desafios técnicos e conceituais, como a compreensão de novos métodos estatísticos e a implementação de sistemas de recomendação. Cada etapa foi essencial para consolidar meus conhecimentos e melhorar minha abordagem na resolução de problemas reais em dados.
+
+O aprendizado foi intenso, e pretendo revisitar este projeto futuramente para refatorar códigos, aprimorar as análises e testar novas abordagens!
+
+---
+
+### Autor
+
 Desenvolvido por **Lívia Grigolon**, como parte do desafio [**7 Days of Code - Ciência de Dados**](https://7daysofcode.io/matricula/data-science). Conecte-se comigo no [LinkedIn](https://www.linkedin.com/in/livgrigolon/).
