@@ -27,10 +27,10 @@ Durante **7 dias**, desenvolvi três projetos distintos, cada um focado em um as
 
 ### Tecnologias utilizadas
 Para o desenvolvimento deste projeto, utilizei as seguintes tecnologias e bibliotecas:
-- **Análise e manipulação de dados:** Pandas, Numpy, SciPy e Statsmodels
-- **Visualização de dados:** Matplotlib, Seaborn e Plotly
-- **Machine Learning e modelagem preditiva:** Scikit-learn, Pmdarima e Prophet
-- **API:** FastAPI e Uvicorn
+- **Análise e manipulação de dados:** Pandas | Numpy | SciPy
+- **Visualização de dados:** Matplotlib | Seaborn | Plotly
+- **Machine Learning e modelagem preditiva:** Scikit-learn | Prophet
+- **API:** Flask
 
 ---
 
@@ -47,6 +47,17 @@ Para o desenvolvimento deste projeto, utilizei as seguintes tecnologias e biblio
    pip install -r requirements.txt
    ```
 3. Execute os notebooks no **Jupyter Notebook** ou no **VS Code**.
+   Os notebooks estão localizados na pasta notebooks/:
+- [01_data_cleaning](https://github.com/livgrigolon/7-days-of-data-science/blob/main/notebooks/01_data_cleaning.ipynb)
+- [02_data_visualization_storytelling](https://github.com/livgrigolon/7-days-of-data-science/blob/main/notebooks/02_data_visualization_storytelling.ipynb)
+- [03_forecasting](https://github.com/livgrigolon/7-days-of-data-science/blob/main/notebooks/03_forecasting.ipynb)
+- [04_machine_learning](https://github.com/livgrigolon/7-days-of-data-science/blob/main/notebooks/04_machine_learning.ipynb)
+4. Execução após o notebook 04:
+   Após concluir o notebook 04, você precisará rodar o arquivo app.py (localizado na pasta src):
+- [app.py](https://github.com/livgrigolon/7-days-of-data-science/blob/main/src/app.py)
+5. Retorno aos notebooks:
+   O último projeto é um notebook novamente, então, após rodar o arquivo app.py, você pode retomar a execução dos notebooks a partir do 06.
+- [06_split_testing](https://github.com/livgrigolon/7-days-of-data-science/blob/main/notebooks/06_split_testing.ipynb)
 
 ---
 
@@ -58,6 +69,6 @@ O aprendizado foi intenso, e pretendo revisitar este projeto futuramente para re
 
 ---
 
-### Autor
+### 👩‍💻 Autor
 
 Desenvolvido por **Lívia Grigolon**, como parte do desafio [**7 Days of Code - Ciência de Dados**](https://7daysofcode.io/matricula/data-science). Conecte-se comigo no [LinkedIn](https://www.linkedin.com/in/livgrigolon/).
