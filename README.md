@@ -46,14 +46,12 @@ Para o desenvolvimento deste projeto, utilizei as seguintes tecnologias e biblio
    source venv/bin/activate  # (ou venv\Scripts\activate no Windows)
    pip install -r requirements.txt
    ```
-3. Execute os notebooks no **Jupyter Notebook** ou no **VS Code**.
-   Os notebooks estão localizados na pasta notebooks/:
+3. Execute os notebooks no **Jupyter Notebook** ou no **VS Code** (localizados na pasta notebooks/):
 - [01_data_cleaning](https://github.com/livgrigolon/7-days-of-data-science/blob/main/notebooks/01_data_cleaning.ipynb)
 - [02_data_visualization_storytelling](https://github.com/livgrigolon/7-days-of-data-science/blob/main/notebooks/02_data_visualization_storytelling.ipynb)
 - [03_forecasting](https://github.com/livgrigolon/7-days-of-data-science/blob/main/notebooks/03_forecasting.ipynb)
 - [04_machine_learning](https://github.com/livgrigolon/7-days-of-data-science/blob/main/notebooks/04_machine_learning.ipynb)
-4. Execução após o notebook 04:
-   Após concluir o notebook 04, você precisará rodar o arquivo app.py (localizado na pasta src):
+4. Após concluir o notebook 04, você precisará rodar o arquivo app.py (localizado na pasta src/):
 - [app.py](https://github.com/livgrigolon/7-days-of-data-science/blob/main/src/app.py)
 5. Retorno aos notebooks:
    O último projeto é um notebook novamente, então, após rodar o arquivo app.py, você pode retomar a execução dos notebooks a partir do 06.
